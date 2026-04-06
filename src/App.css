@@ -1,0 +1,41 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #dce8f8;
+  padding: 16px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.app-logo {
+  height: 80px;
+}
+
+.app-title {
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+.app-type-label {
+  text-align: center;
+}
+
+.sliders-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.results-count {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 12px;
+}
